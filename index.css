@@ -1,0 +1,133 @@
+body {
+  background-image: url('index.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+body {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 10px; /* Adjust the margin bottom as per your preference */
+}
+
+h2 {
+  font-size: 34px;
+  margin-top: 0; /* Adjust the margin top as per your preference */
+}
+
+h1 {
+  font-weight: bold;
+  text-align: left;
+}
+
+h2 {
+  font-weight: normal;
+  text-align: left;
+}
+
+.text_type {
+  color: #333;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.text_type span {
+  color: #333;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.text_type {
+  animation: typing 3s steps(10), blink-caret 0.5s step-end infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid;
+  width: fit-content;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: fit-content;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(112, 111, 108);
+  }
+}
+
+.navbar {
+  background-color: rgb(204, 242, 255); /* Dark background color */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the logo */
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff; /* White color */
+}
+
+/* Style the navigation links */
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar .nav-links li {
+  margin-right: 20px;
+}
+
+.navbar .nav-links li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0); /* White color */
+  font-weight: bold;
+}
+
+.navbar .nav-links li a:hover {
+  color: #ff9900; /* Hover color */
+}
+
+.quote {
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 34px;
+  color: rgb(10, 16, 51);
+  margin-top: 4px;
+}
+.container2 {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  width: 150px; /* Adjust the width as per your preference */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 50%; /* Apply rounded corners for a passport photo effect */
+  margin: 20px 0; /* Adjust the margin as needed */
+}
